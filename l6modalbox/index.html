@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modal Box</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+	<div class="container">
+		
+		<h2>Login Form</h2>
+
+		<button type="button" id="btn-modal" class="btn">Login</button>
+
+		<div id="loginmodal" class="modal fade">
+			
+			<div class="modal-dialog">
+
+				<div class="modal-content">
+				
+					<div class="modal-header">
+					
+						<span class="btn-close" title="Close Modal">&times;</span>
+						<img src="./avatar.png" class="avatar" id="avatar">
+
+					</div>
+
+					<div class="modal-body"> 
+					
+						<form action="" method="">
+						
+							<div class="form-group">
+							
+								<label for="username"><b>Username</b></label>
+								
+								<input type="text" name="username" id="username" class="form-control" placeholder="Enter Your Name" required>
+
+								</label>
+
+							</div>
+
+							<div class="form-group">
+							
+								<label for="password"><b>Password</b></label>
+								
+								<input type="password" name="password" id="password" class="form-control" placeholder="Enter Your Password" required>
+
+								</label>
+
+							</div>
+
+							<div class="d-grid">
+							
+								<button type="submit" class="btn">login</button>
+
+							</div>
+
+							<label>
+							
+								<input type="checkbox" name="checked" id="checked" />
+								Remember ME
+
+							</label>
+
+						</form>
+
+					</div>
+
+					<div class="modal-footer"> 
+					
+						<span class="forgot">Forgot<a href="#"> Password ?</span>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="./app.js" type="text/javascript"></script>
+
+</body>
+</html>
